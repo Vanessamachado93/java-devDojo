@@ -1,6 +1,6 @@
 ### A melhor didática para aprender Java!
 ### Abaixo está as informações do criador do curso!
-### Estou na aula 26.
+### Estou na aula 42.
 
 # Maratona Java Virado No Jiraya - DevDojo Academy
 
