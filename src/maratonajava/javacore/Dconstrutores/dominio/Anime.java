@@ -5,6 +5,24 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
+
+    public Anime(String nome, String tipo, int episodios, String genero){
+        this();
+        this.nome= nome;
+        this.episodios = episodios;
+        this.tipo = tipo;
+        this.genero = genero;
+    }
+
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio){
+        this(nome, tipo, episodios, genero);
+        this.estudio = estudio;
+    }
+    public Anime(){
+        System.out.println("Dentro do construtor sem argumento");
+
+    }
 
     public void init(String nome, String tipo, int episodios){
         this.nome = nome;
