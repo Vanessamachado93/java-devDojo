@@ -17,7 +17,8 @@ public class Cliente {
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", tipoCliente=" + tipoCliente.VALOR+
+                ", tipoCliente=" + tipoCliente.getNomeRelatorio()+
+                ", tipoClienteInt=" + tipoCliente.getVALOR() +
                 ", tipoPagamento=" + tipoPagamento +
                 '}';
     }
