@@ -15,7 +15,7 @@ public class CalculadoraImposto {
     public static void calcularImpostoTomate(Tomate tomate){
         System.out.println("Ralatório de imposto do tomate");
         double imposto = tomate.calcularImposto();
-        System.out.println("Computador "+tomate.getNome());
+        System.out.println("Tomate "+tomate.getNome());
         System.out.println("Valor "+tomate.getValor());
         System.out.println("Imposto a ser pago "+ imposto);
     }

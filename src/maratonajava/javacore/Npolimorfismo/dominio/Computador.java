@@ -1,7 +1,7 @@
 package maratonajava.javacore.Npolimorfismo.dominio;
 
 public class Computador  extends Produto{
-    public static final double IMPOSTO_POR_CENTRO = 21;
+    public static final double IMPOSTO_POR_CENTRO = 0.21;
     public Computador(String nome, double valor) {
         super(nome, valor);
     }

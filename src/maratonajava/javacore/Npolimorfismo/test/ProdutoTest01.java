@@ -10,6 +10,7 @@ public class ProdutoTest01 {
         Tomate tomate = new Tomate("Tomate Italiano", 10);
 
         CalculadoraImposto.calcularImpostoComputador(computador);
+        System.out.println("------------------------");
         CalculadoraImposto.calcularImpostoTomate(tomate);
     }
 }
